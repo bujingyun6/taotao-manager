@@ -11,7 +11,7 @@
   <dependencies>
   	<dependency>
   		 <groupId>cn.zhx</groupId>
-   		<artifactId>taotao-parent</artifactId>
+   		<artifactId>taotao-common</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
   		</dependency>
   </dependencies>
@@ -19,5 +19,7 @@
   <modules>
   	<module>taotao-manager-pojo</module>
   	<module>taotao-manager-dao</module>
+  	<module>taotao-manager-service</module>
+  	<module>taotao-manager-web</module>
   </modules>
 </project>
