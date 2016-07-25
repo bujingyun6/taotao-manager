@@ -16,4 +16,7 @@
   		</dependency>
   </dependencies>
   
+  <modules>
+  	<module>taotao-manager-pojo</module>
+  </modules>
 </project>
