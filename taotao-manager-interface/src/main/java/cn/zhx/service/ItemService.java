@@ -1,5 +1,6 @@
 package cn.zhx.service;
 
+import cn.zhx.pojo.MybatiesPageHelperRusult;
 import cn.zhx.pojo.TbItem;
 
 public interface ItemService {
@@ -9,4 +10,6 @@ public interface ItemService {
 	 * @return
 	 */
 	TbItem getItemById(Long id);
+	
+	MybatiesPageHelperRusult getItemPageHelperList(int page,int row);
 }
